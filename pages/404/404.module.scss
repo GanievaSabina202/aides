@@ -1,0 +1,21 @@
+.Content {
+    position   : absolute;
+    left       : 50%;
+    top        : 50%;
+    transform  : translate(-50%, -50%);
+    text-align : center;
+    line-height: 50px;
+
+    h1 {
+        font-weight: 900;
+        font-size  : 65px;
+    }
+
+    h3 {
+        margin: 35px 0 0;
+        font-size: 30px;
+    }
+    p{
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,53 @@
+.Wrapper {
+    padding: 80px 0px 45px;
+
+    h5 {
+        margin-bottom: 17px;
+        font-weight  : 600;
+        color        : black;
+        font-size    : 20px;
+    }
+
+    .sosialIcons {
+        margin: 0 0 60px;
+    }
+
+    .InstaIcons {
+        .Wrap {
+            display  : flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .TagWrapper {
+        margin: 20px 0 45px;
+
+        .Wrap {
+            display  : flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .CategoriesWrapper {
+        margin: 40px 0;
+    }
+
+
+    .Banner{
+        margin: 40px 0;
+        img{
+            max-width: 237px;
+            height: 159px;
+        }
+    }
+
+}
+
+.AllTitle {
+    margin-bottom: 3px;
+    font-weight  : 600;
+    font-size    : 20px;
+    line-height  : 1.15em;
+    margin       : 20px 0;
+    text-transform: uppercase;
+}

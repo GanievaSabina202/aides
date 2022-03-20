@@ -1,0 +1,42 @@
+{
+  "name": "jugaad",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-free": "^6.1.0",
+    "@icons/material": "^0.4.1",
+    "@mantine/core": "^4.0.5",
+    "@mantine/hooks": "^4.0.5",
+    "@mantine/next": "^4.0.5",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "@react-google-maps/api": "^2.7.0",
+    "axios": "^0.26.1",
+    "axios-mock-adapter": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
+    "material-design-icons": "^3.0.1",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-classlist": "^1.1.2",
+    "react-classlist-helper": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.9",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

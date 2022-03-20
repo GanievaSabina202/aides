@@ -1,0 +1,14 @@
+.Links{
+    color       : black !important;
+    display     : block;
+    font-size   : 17px !important;
+    font-family : "Barlow Condensed", sans-serif;
+    font-weight : inherit;
+    line-height : 17px !important;
+    margin: 5px !important;
+    letter-spacing: 0.5px;
+    padding: 0 0 11px;
+    &:hover{
+        color: #555 !important;
+    }
+}

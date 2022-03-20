@@ -1,0 +1,61 @@
+.Wrapper {
+    width: 33.33333%;
+    padding   : 0 5px;
+    margin    : 0 0 10px;
+
+    @media (max-width:767.9px) {
+        width : 50% !important;
+    }
+
+    .ImgWrapper {
+        width     : 72px;
+        height    : 72px;
+        transition: all .5s !important;
+        position  : relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width:991.9px) {
+            width : 100%;
+            height: 100%;
+        }
+
+        &:hover {
+            .overlay {
+                z-index: 1;
+            }
+        }
+
+        .overlay {
+            width           : 72px;
+            height          : 72px;
+            background-color: rgba(0, 0, 0, 0.522);
+            color           : white;
+            position        : absolute;
+            display         : flex;
+            align-items     : center;
+            justify-content : center;
+            z-index         : -1;
+            transition      : all .5s !important;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            @media (max-width:991.9px) {
+                width : 100%;
+                height: 100%;
+            }
+        }
+
+        img {
+            width     : 100%;
+            height    : 100%;
+            object-fit: cover;
+
+            @media (max-width:991.9px) {
+                width: 100%;
+            }
+        }
+    }
+}

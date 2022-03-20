@@ -1,0 +1,95 @@
+.inputWrap {
+    width  : 50%;
+    padding: 0px 70px 0px 99px;
+
+    @media (max-width:767.9px) {
+        padding: 0px 70px 0px 60px;
+        width  : 100%;
+    }
+
+    @media (max-width:575.9px) {
+        padding: 70px 20px;
+    }
+}
+
+.group {
+    position     : relative;
+    margin-bottom: 25px;
+}
+
+.input {
+    font-size    : 18px;
+    padding      : 0.6px 0.6px 0.7px 0px;
+    display      : block;
+    width        : 100%;
+    border       : none;
+    border-bottom: 2px solid #000000;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.label {
+    color         : #000;
+    font-family   : "Barlow Condensed", sans-serif;
+    font-weight   : 500;
+    font-size     : 15px;
+    position      : absolute;
+    pointer-events: none;
+    left          : 0.1px;
+    top           : 0.9px;
+    transition    : 0.2s ease all;
+    text-transform: uppercase;
+}
+
+.input:focus~.label,
+.input:valid~.label {
+    display: none;
+}
+
+.bar {
+    position: relative;
+    display : block;
+}
+
+.bar:before,
+.bar:after {
+    content   : '';
+    height    : 2px;
+    width     : 0;
+    bottom    : 0px;
+    position  : absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+.input:focus~.bar:before,
+.input:focus~.bar:after {}
+
+.textareaa::placeholder {
+    color      : rgb(0, 0, 0);
+    font-size  : 18px;
+    width      : 100%;
+    font-weight: 400;
+}
+
+.textareaa {
+    padding         : 10px;
+    border          : 1px solid #ebebeb;
+    background-color: #f6f6f6;
+    height          : 100px;
+    width           : 100%;
+}
+
+.textareaa:focus-visible {
+    outline: none;
+}

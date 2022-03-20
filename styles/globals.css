@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500&display=swap');
+html,
+body {
+  margin: 0 auto;
+  max-width: 1600px !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+
+* {
+  font-family: 'Barlow Condensed', sans-serif !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu.show {
+  border: none;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: transparent !important;
+}
+.dropdown-toggle::after{
+  display: none !important;
+}
+@media (max-width:991.9px) {
+  .dropdown-item{
+    padding: 0.45rem 0rem !important;
+    border-bottom: 1px solid #e1e1e1 !important;
+  } 
+}
+.isStickys{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9 !important;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+  background-color: transparent !important;
+}

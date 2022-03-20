@@ -1,0 +1,31 @@
+.Wrapper {
+    .ImgWrapper {
+        max-width : 100vw;
+        transition: .4s;
+        overflow  : hidden;
+        height    : 490px;
+
+        @media (max-width:991.9px) {
+            height: auto;
+        }
+
+        img {
+            width      : 100%;
+            position   : relative;
+            object-fit : cover;
+        }
+    }
+
+    .ContentWrap {
+        h5 {
+            font-size  : 50px;
+            line-height: 1.06em;
+            margin     : 45px 0px 0px;
+
+        }
+
+        p {
+            margin: 12px 0px;
+        }
+    }
+}
